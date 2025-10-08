@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 15 Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Modelos</a></li>
+                <li><a href="#">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="produtos">
+        <h2>Modelos Disponíveis</h2>
+        <div class="produto" id="iphone15">
+            <img src="images (2).jpeg" alt="iPhone 15">
+            <h3>iPhone 15</h3>
+            <p>Preço: R$ 7.999</p>
+            <button class="btn-comprar" data-produto="iPhone 15" data-preco="7999">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" id="iphone15-plus">
+            <img src="51TMS9cC0aL._UF1000,1000_QL80_.jpg" alt="iPhone 15 Plus">
+            <h3>iPhone 15 Plus</h3>
+            <p>Preço: R$ 8.999</p>
+            <button class="btn-comprar" data-produto="iPhone 15 Plus" data-preco="8999">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" id="iphone14">
+            <img src="618Bb+QzCmL.jpg" alt="iPhone 14">
+            <h3>iPhone 14</h3>
+            <p>Preço: R$ 3.499</p>
+            <button class="btn-comprar" data-produto="iPhone 14" data-preco="3499">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" id="iphone13">
+            <img src="41rfDU6FGqL._UF1000,1000_QL80_.jpg" alt="iPhone 13">
+            <h3>iPhone 13</h3>
+            <p>Preço: R$ 3.000</p>
+            <button class="btn-comprar" data-produto="iPhone 13" data-preco="3000">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <section id="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <ul id="itens-carrinho">
+            <li>Nenhum item no carrinho</li>
+        </ul>
+        <p id="total">Total: R$ 0,00</p>
+        <button id="finalizar-compra">Finalizar Compra</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 iPhone 15 Store. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
